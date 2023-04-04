@@ -1,0 +1,756 @@
+Root
+     | Parent branch: None
+     | Tree level: 0
+     | Node number: 0
+     | Node type: Root
+     | Feature selected: safety
+     | Gain Ratio is: 0.1663
+     | Left branch: med
+     | Left middle branch: None
+     | Middle branch: high
+     | Right middle branch: None
+     | Right branch: low
+     | Sample size: 692
+     | Predicted class: unacc
+|-------- Parent: ['safety']
+             | Parent branch: high
+             | Tree level: 1
+             | Node number: 0
+             | Node type: Decision
+             | Feature selected: persons
+             | Gain Ratio is: 0.399
+             | Left branch: more
+             | Left middle branch: None
+             | Middle branch: 2
+             | Right middle branch: None
+             | Right branch: 4
+             | Sample size: 215
+             | Predicted class: unacc
+|-------- Parent: ['safety']
+             | Parent branch: low
+             | Tree level: 1
+             | Node number: 1
+             | Node type: Leaf
+             | Sample size: 234
+             | Predicted class: unacc
+|-------- Parent: ['safety']
+             | Parent branch: med
+             | Tree level: 1
+             | Node number: 2
+             | Node type: Decision
+             | Feature selected: persons
+             | Gain Ratio is: 0.2426
+             | Left branch: 4
+             | Left middle branch: None
+             | Middle branch: more
+             | Right middle branch: None
+             | Right branch: 2
+             | Sample size: 243
+             | Predicted class: unacc
+|---------------- Parent: ['persons']
+                     | Parent branch: 2
+                     | Tree level: 2
+                     | Node number: 0
+                     | Node type: Leaf
+                     | Sample size: 84
+                     | Predicted class: unacc
+|---------------- Parent: ['persons']
+                     | Parent branch: 4
+                     | Tree level: 2
+                     | Node number: 1
+                     | Node type: Decision
+                     | Feature selected: buying
+                     | Gain Ratio is: 0.32
+                     | Left branch: med
+                     | Left middle branch: None
+                     | Middle branch: low
+                     | Right middle branch: None
+                     | Right branch: high
+                     | Sample size: 64
+                     | Predicted class: acc
+|---------------- Parent: ['persons']
+                     | Parent branch: more
+                     | Tree level: 2
+                     | Node number: 2
+                     | Node type: Decision
+                     | Feature selected: buying
+                     | Gain Ratio is: 0.2204
+                     | Left branch: low
+                     | Left middle branch: high
+                     | Middle branch: None
+                     | Right middle branch: med
+                     | Right branch: vhigh
+                     | Sample size: 67
+                     | Predicted class: acc
+|---------------- Parent: ['persons']
+                     | Parent branch: 2
+                     | Tree level: 2
+                     | Node number: 3
+                     | Node type: Leaf
+                     | Sample size: 97
+                     | Predicted class: unacc
+|---------------- Parent: ['persons']
+                     | Parent branch: 4
+                     | Tree level: 2
+                     | Node number: 4
+                     | Node type: Decision
+                     | Feature selected: buying
+                     | Gain Ratio is: 0.1627
+                     | Left branch: low
+                     | Left middle branch: med
+                     | Middle branch: None
+                     | Right middle branch: high
+                     | Right branch: vhigh
+                     | Sample size: 71
+                     | Predicted class: acc
+|---------------- Parent: ['persons']
+                     | Parent branch: more
+                     | Tree level: 2
+                     | Node number: 5
+                     | Node type: Decision
+                     | Feature selected: lug_boot
+                     | Gain Ratio is: 0.2067
+                     | Left branch: big
+                     | Left middle branch: None
+                     | Middle branch: small
+                     | Right middle branch: None
+                     | Right branch: med
+                     | Sample size: 75
+                     | Predicted class: acc
+|------------------------ Parent: ['buying']
+                             | Parent branch: high
+                             | Tree level: 3
+                             | Node number: 0
+                             | Node type: Decision
+                             | Feature selected: maint
+                             | Gain Ratio is: 0.4884
+                             | Left branch: low
+                             | Left middle branch: vhigh
+                             | Middle branch: None
+                             | Right middle branch: high
+                             | Right branch: med
+                             | Sample size: 22
+                             | Predicted class: acc
+|------------------------ Parent: ['buying']
+                             | Parent branch: low
+                             | Tree level: 3
+                             | Node number: 1
+                             | Node type: Decision
+                             | Feature selected: maint
+                             | Gain Ratio is: 0.3995
+                             | Left branch: low
+                             | Left middle branch: med
+                             | Middle branch: None
+                             | Right middle branch: high
+                             | Right branch: vhigh
+                             | Sample size: 21
+                             | Predicted class: vgood
+|------------------------ Parent: ['buying']
+                             | Parent branch: med
+                             | Tree level: 3
+                             | Node number: 2
+                             | Node type: Decision
+                             | Feature selected: maint
+                             | Gain Ratio is: 0.3969
+                             | Left branch: med
+                             | Left middle branch: low
+                             | Middle branch: None
+                             | Right middle branch: high
+                             | Right branch: vhigh
+                             | Sample size: 21
+                             | Predicted class: acc
+|------------------------ Parent: ['buying']
+                             | Parent branch: high
+                             | Tree level: 3
+                             | Node number: 3
+                             | Node type: Decision
+                             | Feature selected: maint
+                             | Gain Ratio is: 0.3053
+                             | Left branch: high
+                             | Left middle branch: low
+                             | Middle branch: None
+                             | Right middle branch: med
+                             | Right branch: vhigh
+                             | Sample size: 27
+                             | Predicted class: acc
+|------------------------ Parent: ['buying']
+                             | Parent branch: low
+                             | Tree level: 3
+                             | Node number: 4
+                             | Node type: Decision
+                             | Feature selected: maint
+                             | Gain Ratio is: 0.5221
+                             | Left branch: vhigh
+                             | Left middle branch: med
+                             | Middle branch: None
+                             | Right middle branch: low
+                             | Right branch: high
+                             | Sample size: 21
+                             | Predicted class: vgood
+|------------------------ Parent: ['buying']
+                             | Parent branch: med
+                             | Tree level: 3
+                             | Node number: 5
+                             | Node type: Decision
+                             | Feature selected: maint
+                             | Gain Ratio is: 0.4422
+                             | Left branch: high
+                             | Left middle branch: vhigh
+                             | Middle branch: None
+                             | Right middle branch: low
+                             | Right branch: med
+                             | Sample size: 18
+                             | Predicted class: acc
+|------------------------ Parent: ['buying']
+                             | Parent branch: vhigh
+                             | Tree level: 3
+                             | Node number: 6
+                             | Node type: Leaf
+                             | Sample size: 1
+                             | Predicted class: unacc
+|------------------------ Parent: ['buying']
+                             | Parent branch: high
+                             | Tree level: 3
+                             | Node number: 7
+                             | Node type: Decision
+                             | Feature selected: lug_boot
+                             | Gain Ratio is: 0.1842
+                             | Left branch: big
+                             | Left middle branch: None
+                             | Middle branch: med
+                             | Right middle branch: None
+                             | Right branch: small
+                             | Sample size: 20
+                             | Predicted class: unacc
+|------------------------ Parent: ['buying']
+                             | Parent branch: low
+                             | Tree level: 3
+                             | Node number: 8
+                             | Node type: Decision
+                             | Feature selected: maint
+                             | Gain Ratio is: 0.3317
+                             | Left branch: vhigh
+                             | Left middle branch: high
+                             | Middle branch: None
+                             | Right middle branch: low
+                             | Right branch: med
+                             | Sample size: 21
+                             | Predicted class: acc
+|------------------------ Parent: ['buying']
+                             | Parent branch: med
+                             | Tree level: 3
+                             | Node number: 9
+                             | Node type: Decision
+                             | Feature selected: maint
+                             | Gain Ratio is: 0.2078
+                             | Left branch: high
+                             | Left middle branch: low
+                             | Middle branch: None
+                             | Right middle branch: vhigh
+                             | Right branch: med
+                             | Sample size: 25
+                             | Predicted class: acc
+|------------------------ Parent: ['buying']
+                             | Parent branch: vhigh
+                             | Tree level: 3
+                             | Node number: 10
+                             | Node type: Leaf
+                             | Sample size: 5
+                             | Predicted class: unacc
+|------------------------ Parent: ['lug_boot']
+                             | Parent branch: big
+                             | Tree level: 3
+                             | Node number: 11
+                             | Node type: Decision
+                             | Feature selected: maint
+                             | Gain Ratio is: 0.2826
+                             | Left branch: high
+                             | Left middle branch: vhigh
+                             | Middle branch: None
+                             | Right middle branch: low
+                             | Right branch: med
+                             | Sample size: 19
+                             | Predicted class: acc
+|------------------------ Parent: ['lug_boot']
+                             | Parent branch: med
+                             | Tree level: 3
+                             | Node number: 12
+                             | Node type: Decision
+                             | Feature selected: doors
+                             | Gain Ratio is: 0.2161
+                             | Left branch: 2
+                             | Left middle branch: 3
+                             | Middle branch: None
+                             | Right middle branch: 5more
+                             | Right branch: 4
+                             | Sample size: 22
+                             | Predicted class: acc
+|------------------------ Parent: ['lug_boot']
+                             | Parent branch: small
+                             | Tree level: 3
+                             | Node number: 13
+                             | Node type: Decision
+                             | Feature selected: buying
+                             | Gain Ratio is: 0.1293
+                             | Left branch: vhigh
+                             | Left middle branch: high
+                             | Middle branch: None
+                             | Right middle branch: low
+                             | Right branch: med
+                             | Sample size: 34
+                             | Predicted class: unacc
+|-------------------------------- Parent: ['maint']
+                                     | Parent branch: high
+                                     | Tree level: 4
+                                     | Node number: 0
+                                     | Node type: Decision
+                                     | Feature selected: doors
+                                     | Gain Ratio is: -0.0
+                                     | Left branch: 5more
+                                     | Left middle branch: None
+                                     | Middle branch: 3
+                                     | Right middle branch: None
+                                     | Right branch: 4
+                                     | Sample size: 6
+                                     | Predicted class: acc
+|-------------------------------- Parent: ['maint']
+                                     | Parent branch: low
+                                     | Tree level: 4
+                                     | Node number: 1
+                                     | Node type: Leaf
+                                     | Sample size: 4
+                                     | Predicted class: acc
+|-------------------------------- Parent: ['maint']
+                                     | Parent branch: med
+                                     | Tree level: 4
+                                     | Node number: 2
+                                     | Node type: Leaf
+                                     | Sample size: 4
+                                     | Predicted class: acc
+|-------------------------------- Parent: ['maint']
+                                     | Parent branch: vhigh
+                                     | Tree level: 4
+                                     | Node number: 3
+                                     | Node type: Leaf
+                                     | Sample size: 8
+                                     | Predicted class: unacc
+|-------------------------------- Parent: ['maint']
+                                     | Parent branch: high
+                                     | Tree level: 4
+                                     | Node number: 4
+                                     | Node type: Leaf
+                                     | Sample size: 5
+                                     | Predicted class: vgood
+|-------------------------------- Parent: ['maint']
+                                     | Parent branch: low
+                                     | Tree level: 4
+                                     | Node number: 5
+                                     | Node type: Leaf
+                                     | Sample size: 5
+                                     | Predicted class: vgood
+|-------------------------------- Parent: ['maint']
+                                     | Parent branch: med
+                                     | Tree level: 4
+                                     | Node number: 6
+                                     | Node type: Decision
+                                     | Feature selected: lug_boot
+                                     | Gain Ratio is: 0.4206
+                                     | Left branch: small
+                                     | Left middle branch: None
+                                     | Middle branch: big
+                                     | Right middle branch: None
+                                     | Right branch: med
+                                     | Sample size: 6
+                                     | Predicted class: good
+|-------------------------------- Parent: ['maint']
+                                     | Parent branch: vhigh
+                                     | Tree level: 4
+                                     | Node number: 7
+                                     | Node type: Leaf
+                                     | Sample size: 5
+                                     | Predicted class: acc
+|-------------------------------- Parent: ['maint']
+                                     | Parent branch: high
+                                     | Tree level: 4
+                                     | Node number: 8
+                                     | Node type: Leaf
+                                     | Sample size: 5
+                                     | Predicted class: acc
+|-------------------------------- Parent: ['maint']
+                                     | Parent branch: low
+                                     | Tree level: 4
+                                     | Node number: 9
+                                     | Node type: Leaf
+                                     | Sample size: 5
+                                     | Predicted class: vgood
+|-------------------------------- Parent: ['maint']
+                                     | Parent branch: med
+                                     | Tree level: 4
+                                     | Node number: 10
+                                     | Node type: Leaf
+                                     | Sample size: 5
+                                     | Predicted class: acc
+|-------------------------------- Parent: ['maint']
+                                     | Parent branch: vhigh
+                                     | Tree level: 4
+                                     | Node number: 11
+                                     | Node type: Decision
+                                     | Feature selected: doors
+                                     | Gain Ratio is: -0.0
+                                     | Left branch: 5more
+                                     | Left middle branch: None
+                                     | Middle branch: 3
+                                     | Right middle branch: None
+                                     | Right branch: 4
+                                     | Sample size: 6
+                                     | Predicted class: acc
+|-------------------------------- Parent: ['maint']
+                                     | Parent branch: high
+                                     | Tree level: 4
+                                     | Node number: 12
+                                     | Node type: Decision
+                                     | Feature selected: doors
+                                     | Gain Ratio is: 0.188
+                                     | Left branch: 3
+                                     | Left middle branch: None
+                                     | Middle branch: 2
+                                     | Right middle branch: None
+                                     | Right branch: 4
+                                     | Sample size: 8
+                                     | Predicted class: acc
+|-------------------------------- Parent: ['maint']
+                                     | Parent branch: low
+                                     | Tree level: 4
+                                     | Node number: 13
+                                     | Node type: Decision
+                                     | Feature selected: doors
+                                     | Gain Ratio is: 0.1541
+                                     | Left branch: 3
+                                     | Left middle branch: 2
+                                     | Middle branch: None
+                                     | Right middle branch: 4
+                                     | Right branch: 5more
+                                     | Sample size: 8
+                                     | Predicted class: acc
+|-------------------------------- Parent: ['maint']
+                                     | Parent branch: med
+                                     | Tree level: 4
+                                     | Node number: 14
+                                     | Node type: Leaf
+                                     | Sample size: 4
+                                     | Predicted class: acc
+|-------------------------------- Parent: ['maint']
+                                     | Parent branch: vhigh
+                                     | Tree level: 4
+                                     | Node number: 15
+                                     | Node type: Leaf
+                                     | Sample size: 7
+                                     | Predicted class: unacc
+|-------------------------------- Parent: ['maint']
+                                     | Parent branch: high
+                                     | Tree level: 4
+                                     | Node number: 16
+                                     | Node type: Decision
+                                     | Feature selected: lug_boot
+                                     | Gain Ratio is: 0.5545
+                                     | Left branch: med
+                                     | Left middle branch: None
+                                     | Middle branch: small
+                                     | Right middle branch: None
+                                     | Right branch: big
+                                     | Sample size: 7
+                                     | Predicted class: vgood
+|-------------------------------- Parent: ['maint']
+                                     | Parent branch: low
+                                     | Tree level: 4
+                                     | Node number: 17
+                                     | Node type: Leaf
+                                     | Sample size: 3
+                                     | Predicted class: vgood
+|-------------------------------- Parent: ['maint']
+                                     | Parent branch: med
+                                     | Tree level: 4
+                                     | Node number: 18
+                                     | Node type: Leaf
+                                     | Sample size: 4
+                                     | Predicted class: vgood
+|-------------------------------- Parent: ['maint']
+                                     | Parent branch: vhigh
+                                     | Tree level: 4
+                                     | Node number: 19
+                                     | Node type: Leaf
+                                     | Sample size: 7
+                                     | Predicted class: acc
+|-------------------------------- Parent: ['maint']
+                                     | Parent branch: high
+                                     | Tree level: 4
+                                     | Node number: 20
+                                     | Node type: Decision
+                                     | Feature selected: lug_boot
+                                     | Gain Ratio is: -0.0
+                                     | Left branch: med
+                                     | Left middle branch: None
+                                     | Middle branch: small
+                                     | Right middle branch: None
+                                     | Right branch: big
+                                     | Sample size: 6
+                                     | Predicted class: acc
+|-------------------------------- Parent: ['maint']
+                                     | Parent branch: low
+                                     | Tree level: 4
+                                     | Node number: 21
+                                     | Node type: Leaf
+                                     | Sample size: 4
+                                     | Predicted class: vgood
+|-------------------------------- Parent: ['maint']
+                                     | Parent branch: med
+                                     | Tree level: 4
+                                     | Node number: 22
+                                     | Node type: Leaf
+                                     | Sample size: 2
+                                     | Predicted class: acc
+|-------------------------------- Parent: ['maint']
+                                     | Parent branch: vhigh
+                                     | Tree level: 4
+                                     | Node number: 23
+                                     | Node type: Decision
+                                     | Feature selected: lug_boot
+                                     | Gain Ratio is: 0.217
+                                     | Left branch: small
+                                     | Left middle branch: None
+                                     | Middle branch: med
+                                     | Right middle branch: None
+                                     | Right branch: big
+                                     | Sample size: 6
+                                     | Predicted class: acc
+|-------------------------------- Parent: ['lug_boot']
+                                     | Parent branch: big
+                                     | Tree level: 4
+                                     | Node number: 24
+                                     | Node type: Decision
+                                     | Feature selected: maint
+                                     | Gain Ratio is: 0.4685
+                                     | Left branch: vhigh
+                                     | Left middle branch: med
+                                     | Middle branch: None
+                                     | Right middle branch: high
+                                     | Right branch: low
+                                     | Sample size: 7
+                                     | Predicted class: acc
+|-------------------------------- Parent: ['lug_boot']
+                                     | Parent branch: med
+                                     | Tree level: 4
+                                     | Node number: 25
+                                     | Node type: Decision
+                                     | Feature selected: doors
+                                     | Gain Ratio is: 0.3522
+                                     | Left branch: 2
+                                     | Left middle branch: 3
+                                     | Middle branch: None
+                                     | Right middle branch: 5more
+                                     | Right branch: 4
+                                     | Sample size: 8
+                                     | Predicted class: unacc
+|-------------------------------- Parent: ['lug_boot']
+                                     | Parent branch: small
+                                     | Tree level: 4
+                                     | Node number: 26
+                                     | Node type: Leaf
+                                     | Sample size: 5
+                                     | Predicted class: unacc
+|-------------------------------- Parent: ['maint']
+                                     | Parent branch: high
+                                     | Tree level: 4
+                                     | Node number: 27
+                                     | Node type: Decision
+                                     | Feature selected: lug_boot
+                                     | Gain Ratio is: -0.0
+                                     | Left branch: small
+                                     | Left middle branch: None
+                                     | Middle branch: big
+                                     | Right middle branch: None
+                                     | Right branch: med
+                                     | Sample size: 6
+                                     | Predicted class: acc
+|-------------------------------- Parent: ['maint']
+                                     | Parent branch: low
+                                     | Tree level: 4
+                                     | Node number: 28
+                                     | Node type: Leaf
+                                     | Sample size: 4
+                                     | Predicted class: good
+|-------------------------------- Parent: ['maint']
+                                     | Parent branch: med
+                                     | Tree level: 4
+                                     | Node number: 29
+                                     | Node type: Leaf
+                                     | Sample size: 4
+                                     | Predicted class: good
+|-------------------------------- Parent: ['maint']
+                                     | Parent branch: vhigh
+                                     | Tree level: 4
+                                     | Node number: 30
+                                     | Node type: Decision
+                                     | Feature selected: lug_boot
+                                     | Gain Ratio is: 0.3801
+                                     | Left branch: big
+                                     | Left middle branch: None
+                                     | Middle branch: med
+                                     | Right middle branch: None
+                                     | Right branch: small
+                                     | Sample size: 7
+                                     | Predicted class: acc
+|-------------------------------- Parent: ['maint']
+                                     | Parent branch: high
+                                     | Tree level: 4
+                                     | Node number: 31
+                                     | Node type: Decision
+                                     | Feature selected: lug_boot
+                                     | Gain Ratio is: 0.2011
+                                     | Left branch: big
+                                     | Left middle branch: None
+                                     | Middle branch: None
+                                     | Right middle branch: None
+                                     | Right branch: med
+                                     | Sample size: 7
+                                     | Predicted class: acc
+|-------------------------------- Parent: ['maint']
+                                     | Parent branch: low
+                                     | Tree level: 4
+                                     | Node number: 32
+                                     | Node type: Leaf
+                                     | Sample size: 3
+                                     | Predicted class: acc
+|-------------------------------- Parent: ['maint']
+                                     | Parent branch: med
+                                     | Tree level: 4
+                                     | Node number: 33
+                                     | Node type: Leaf
+                                     | Sample size: 8
+                                     | Predicted class: acc
+|-------------------------------- Parent: ['maint']
+                                     | Parent branch: vhigh
+                                     | Tree level: 4
+                                     | Node number: 34
+                                     | Node type: Decision
+                                     | Feature selected: lug_boot
+                                     | Gain Ratio is: 0.4084
+                                     | Left branch: big
+                                     | Left middle branch: None
+                                     | Middle branch: med
+                                     | Right middle branch: None
+                                     | Right branch: small
+                                     | Sample size: 7
+                                     | Predicted class: unacc
+|-------------------------------- Parent: ['maint']
+                                     | Parent branch: high
+                                     | Tree level: 4
+                                     | Node number: 35
+                                     | Node type: Leaf
+                                     | Sample size: 8
+                                     | Predicted class: acc
+|-------------------------------- Parent: ['maint']
+                                     | Parent branch: low
+                                     | Tree level: 4
+                                     | Node number: 36
+                                     | Node type: Leaf
+                                     | Sample size: 4
+                                     | Predicted class: good
+|-------------------------------- Parent: ['maint']
+                                     | Parent branch: med
+                                     | Tree level: 4
+                                     | Node number: 37
+                                     | Node type: Leaf
+                                     | Sample size: 4
+                                     | Predicted class: acc
+|-------------------------------- Parent: ['maint']
+                                     | Parent branch: vhigh
+                                     | Tree level: 4
+                                     | Node number: 38
+                                     | Node type: Leaf
+                                     | Sample size: 3
+                                     | Predicted class: acc
+|-------------------------------- Parent: ['doors']
+                                     | Parent branch: 2
+                                     | Tree level: 4
+                                     | Node number: 39
+                                     | Node type: Decision
+                                     | Feature selected: maint
+                                     | Gain Ratio is: 0.4787
+                                     | Left branch: vhigh
+                                     | Left middle branch: med
+                                     | Middle branch: None
+                                     | Right middle branch: low
+                                     | Right branch: high
+                                     | Sample size: 6
+                                     | Predicted class: unacc
+|-------------------------------- Parent: ['doors']
+                                     | Parent branch: 3
+                                     | Tree level: 4
+                                     | Node number: 40
+                                     | Node type: Leaf
+                                     | Sample size: 5
+                                     | Predicted class: acc
+|-------------------------------- Parent: ['doors']
+                                     | Parent branch: 4
+                                     | Tree level: 4
+                                     | Node number: 41
+                                     | Node type: Decision
+                                     | Feature selected: maint
+                                     | Gain Ratio is: 0.217
+                                     | Left branch: low
+                                     | Left middle branch: None
+                                     | Middle branch: high
+                                     | Right middle branch: None
+                                     | Right branch: vhigh
+                                     | Sample size: 6
+                                     | Predicted class: acc
+|-------------------------------- Parent: ['doors']
+                                     | Parent branch: 5more
+                                     | Tree level: 4
+                                     | Node number: 42
+                                     | Node type: Leaf
+                                     | Sample size: 5
+                                     | Predicted class: acc
+|-------------------------------- Parent: ['buying']
+                                     | Parent branch: high
+                                     | Tree level: 4
+                                     | Node number: 43
+                                     | Node type: Leaf
+                                     | Sample size: 10
+                                     | Predicted class: unacc
+|-------------------------------- Parent: ['buying']
+                                     | Parent branch: low
+                                     | Tree level: 4
+                                     | Node number: 44
+                                     | Node type: Decision
+                                     | Feature selected: maint
+                                     | Gain Ratio is: 0.4612
+                                     | Left branch: vhigh
+                                     | Left middle branch: None
+                                     | Middle branch: med
+                                     | Right middle branch: None
+                                     | Right branch: high
+                                     | Sample size: 10
+                                     | Predicted class: unacc
+|-------------------------------- Parent: ['buying']
+                                     | Parent branch: med
+                                     | Tree level: 4
+                                     | Node number: 45
+                                     | Node type: Decision
+                                     | Feature selected: maint
+                                     | Gain Ratio is: 0.2449
+                                     | Left branch: med
+                                     | Left middle branch: high
+                                     | Middle branch: None
+                                     | Right middle branch: low
+                                     | Right branch: vhigh
+                                     | Sample size: 12
+                                     | Predicted class: unacc
+|-------------------------------- Parent: ['buying']
+                                     | Parent branch: vhigh
+                                     | Tree level: 4
+                                     | Node number: 46
+                                     | Node type: Leaf
+                                     | Sample size: 2
+                                     | Predicted class: unacc

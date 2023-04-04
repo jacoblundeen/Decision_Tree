@@ -1,0 +1,8 @@
+The cars data, with target variable class, is a classification problem.
+Hyperparameter tuning took: 7.035 minutes.
+The hyperparameter Max Depth is tune to: 3
+The hyperparameter θ is tuned to: 1
+The Decision Tree took: 0.085 minutes.
+The Precision score is: 0.164
+The Recall score is: 0.25
+The F1 score is: 0.13

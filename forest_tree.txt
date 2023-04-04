@@ -1,0 +1,931 @@
+Root
+     | Parent branch: None
+     | Tree level: 0
+     | Node number: 0
+     | Node type: Root
+     | Feature selected: month
+     | Gain Ratio is: 6.555
+     | Left branch: oct
+     | Left middle branch: aug
+     | Middle branch: None
+     | Right middle branch: jul
+     | Right branch: sep
+     | Sample size: 207
+     | Predicted class: 1.1496597736910957e-05
+|-------- Parent: ['month']
+             | Parent branch: apr
+             | Tree level: 1
+             | Node number: 0
+             | Node type: Leaf
+             | Sample size: 1
+             | Predicted class: -1.05159734607575
+|-------- Parent: ['month']
+             | Parent branch: aug
+             | Tree level: 1
+             | Node number: 1
+             | Node type: Decision
+             | Feature selected: day
+             | Gain Ratio is: 6.573
+             | Left branch: tue
+             | Left middle branch: wed
+             | Middle branch: None
+             | Right middle branch: fri
+             | Right branch: mon
+             | Sample size: 66
+             | Predicted class: -0.09359692337448422
+|-------- Parent: ['month']
+             | Parent branch: dec
+             | Tree level: 1
+             | Node number: 2
+             | Node type: Leaf
+             | Sample size: 4
+             | Predicted class: 0.9786481082579888
+|-------- Parent: ['month']
+             | Parent branch: feb
+             | Tree level: 1
+             | Node number: 3
+             | Node type: Decision
+             | Feature selected: day
+             | Gain Ratio is: 2.019
+             | Left branch: fri
+             | Left middle branch: sun
+             | Middle branch: None
+             | Right middle branch: sat
+             | Right branch: tue
+             | Sample size: 9
+             | Predicted class: -0.17220679323664498
+|-------- Parent: ['month']
+             | Parent branch: jul
+             | Tree level: 1
+             | Node number: 4
+             | Node type: Decision
+             | Feature selected: day
+             | Gain Ratio is: 5.518
+             | Left branch: sat
+             | Left middle branch: sun
+             | Middle branch: None
+             | Right middle branch: thu
+             | Right branch: tue
+             | Sample size: 17
+             | Predicted class: -0.11126370002291945
+|-------- Parent: ['month']
+             | Parent branch: jun
+             | Tree level: 1
+             | Node number: 5
+             | Node type: Decision
+             | Feature selected: day
+             | Gain Ratio is: 0.938
+             | Left branch: mon
+             | Left middle branch: thu
+             | Middle branch: None
+             | Right middle branch: wed
+             | Right branch: sun
+             | Sample size: 8
+             | Predicted class: -0.04575229921404164
+|-------- Parent: ['month']
+             | Parent branch: mar
+             | Tree level: 1
+             | Node number: 6
+             | Node type: Decision
+             | Feature selected: day
+             | Gain Ratio is: 2.85
+             | Left branch: sun
+             | Left middle branch: fri
+             | Middle branch: None
+             | Right middle branch: tue
+             | Right branch: mon
+             | Sample size: 17
+             | Predicted class: 0.01612118868836212
+|-------- Parent: ['month']
+             | Parent branch: nov
+             | Tree level: 1
+             | Node number: 7
+             | Node type: Leaf
+             | Sample size: 1
+             | Predicted class: -1.05159734607575
+|-------- Parent: ['month']
+             | Parent branch: oct
+             | Tree level: 1
+             | Node number: 8
+             | Node type: Decision
+             | Feature selected: day
+             | Gain Ratio is: 1.11
+             | Left branch: wed
+             | Left middle branch: tue
+             | Middle branch: None
+             | Right middle branch: sun
+             | Right branch: mon
+             | Sample size: 6
+             | Predicted class: -0.7004680015791518
+|-------- Parent: ['month']
+             | Parent branch: sep
+             | Tree level: 1
+             | Node number: 9
+             | Node type: Decision
+             | Feature selected: day
+             | Gain Ratio is: 6.49
+             | Left branch: mon
+             | Left middle branch: sun
+             | Middle branch: None
+             | Right middle branch: fri
+             | Right branch: wed
+             | Sample size: 78
+             | Predicted class: 0.1551857593919432
+|---------------- Parent: ['day']
+                     | Parent branch: fri
+                     | Tree level: 2
+                     | Node number: 0
+                     | Node type: Decision
+                     | Feature selected: rain
+                     | Gain Ratio is: 6.636
+                     | Left branch: 0.0
+                     | Left middle branch: None
+                     | Middle branch: None
+                     | Right middle branch: None
+                     | Right branch: 0.0
+                     | Sample size: 8
+                     | Predicted class: -0.07985411768950557
+|---------------- Parent: ['day']
+                     | Parent branch: mon
+                     | Tree level: 2
+                     | Node number: 1
+                     | Node type: Decision
+                     | Feature selected: temp
+                     | Gain Ratio is: 4.681
+                     | Left branch: 19.3
+                     | Left middle branch: None
+                     | Middle branch: None
+                     | Right middle branch: None
+                     | Right branch: 19.3
+                     | Sample size: 8
+                     | Predicted class: -0.07838024979524955
+|---------------- Parent: ['day']
+                     | Parent branch: sat
+                     | Tree level: 2
+                     | Node number: 2
+                     | Node type: Decision
+                     | Feature selected: rain
+                     | Gain Ratio is: 8.811
+                     | Left branch: 0.0
+                     | Left middle branch: None
+                     | Middle branch: None
+                     | Right middle branch: None
+                     | Right branch: 0.0
+                     | Sample size: 10
+                     | Predicted class: -0.06308167537076949
+|---------------- Parent: ['day']
+                     | Parent branch: sun
+                     | Tree level: 2
+                     | Node number: 3
+                     | Node type: Decision
+                     | Feature selected: rain
+                     | Gain Ratio is: 10.901
+                     | Left branch: 0.0
+                     | Left middle branch: None
+                     | Middle branch: None
+                     | Right middle branch: None
+                     | Right branch: 0.0
+                     | Sample size: 12
+                     | Predicted class: -0.2115930727290017
+|---------------- Parent: ['day']
+                     | Parent branch: thu
+                     | Tree level: 2
+                     | Node number: 4
+                     | Node type: Decision
+                     | Feature selected: rain
+                     | Gain Ratio is: 8.145
+                     | Left branch: 0.0
+                     | Left middle branch: None
+                     | Middle branch: None
+                     | Right middle branch: None
+                     | Right branch: 0.0
+                     | Sample size: 10
+                     | Predicted class: -0.4306675435110945
+|---------------- Parent: ['day']
+                     | Parent branch: tue
+                     | Tree level: 2
+                     | Node number: 5
+                     | Node type: Decision
+                     | Feature selected: rain
+                     | Gain Ratio is: 6.818
+                     | Left branch: 0.0
+                     | Left middle branch: None
+                     | Middle branch: None
+                     | Right middle branch: None
+                     | Right branch: 0.0
+                     | Sample size: 9
+                     | Predicted class: 0.2614124105008433
+|---------------- Parent: ['day']
+                     | Parent branch: wed
+                     | Tree level: 2
+                     | Node number: 6
+                     | Node type: Decision
+                     | Feature selected: Y
+                     | Gain Ratio is: 6.393
+                     | Left branch: 4.0
+                     | Left middle branch: None
+                     | Middle branch: None
+                     | Right middle branch: None
+                     | Right branch: 4.0
+                     | Sample size: 9
+                     | Predicted class: 0.02359726269123932
+|---------------- Parent: ['day']
+                     | Parent branch: fri
+                     | Tree level: 2
+                     | Node number: 7
+                     | Node type: Leaf
+                     | Sample size: 2
+                     | Predicted class: -0.06068388795844232
+|---------------- Parent: ['day']
+                     | Parent branch: mon
+                     | Tree level: 2
+                     | Node number: 8
+                     | Node type: Leaf
+                     | Sample size: 1
+                     | Predicted class: -1.05159734607575
+|---------------- Parent: ['day']
+                     | Parent branch: sat
+                     | Tree level: 2
+                     | Node number: 9
+                     | Node type: Leaf
+                     | Sample size: 2
+                     | Predicted class: -1.05159734607575
+|---------------- Parent: ['day']
+                     | Parent branch: sun
+                     | Tree level: 2
+                     | Node number: 10
+                     | Node type: Leaf
+                     | Sample size: 2
+                     | Predicted class: -0.033299081809401776
+|---------------- Parent: ['day']
+                     | Parent branch: tue
+                     | Tree level: 2
+                     | Node number: 11
+                     | Node type: Leaf
+                     | Sample size: 1
+                     | Predicted class: 0.938360181097339
+|---------------- Parent: ['day']
+                     | Parent branch: wed
+                     | Tree level: 2
+                     | Node number: 12
+                     | Node type: Leaf
+                     | Sample size: 1
+                     | Predicted class: 0.8545366575357947
+|---------------- Parent: ['day']
+                     | Parent branch: fri
+                     | Tree level: 2
+                     | Node number: 13
+                     | Node type: Leaf
+                     | Sample size: 2
+                     | Predicted class: -0.0754422343109496
+|---------------- Parent: ['day']
+                     | Parent branch: mon
+                     | Tree level: 2
+                     | Node number: 14
+                     | Node type: Leaf
+                     | Sample size: 3
+                     | Predicted class: 0.3233728747799214
+|---------------- Parent: ['day']
+                     | Parent branch: sat
+                     | Tree level: 2
+                     | Node number: 15
+                     | Node type: Leaf
+                     | Sample size: 1
+                     | Predicted class: -1.05159734607575
+|---------------- Parent: ['day']
+                     | Parent branch: sun
+                     | Tree level: 2
+                     | Node number: 16
+                     | Node type: Leaf
+                     | Sample size: 3
+                     | Predicted class: 0.26210894074268554
+|---------------- Parent: ['day']
+                     | Parent branch: thu
+                     | Tree level: 2
+                     | Node number: 17
+                     | Node type: Leaf
+                     | Sample size: 2
+                     | Predicted class: -0.07436566508806775
+|---------------- Parent: ['day']
+                     | Parent branch: tue
+                     | Tree level: 2
+                     | Node number: 18
+                     | Node type: Leaf
+                     | Sample size: 3
+                     | Predicted class: -0.38363281857288317
+|---------------- Parent: ['day']
+                     | Parent branch: wed
+                     | Tree level: 2
+                     | Node number: 19
+                     | Node type: Leaf
+                     | Sample size: 3
+                     | Predicted class: -0.38193891545500575
+|---------------- Parent: ['day']
+                     | Parent branch: fri
+                     | Tree level: 2
+                     | Node number: 20
+                     | Node type: Leaf
+                     | Sample size: 1
+                     | Predicted class: -1.05159734607575
+|---------------- Parent: ['day']
+                     | Parent branch: mon
+                     | Tree level: 2
+                     | Node number: 21
+                     | Node type: Leaf
+                     | Sample size: 2
+                     | Predicted class: -0.0835672961102647
+|---------------- Parent: ['day']
+                     | Parent branch: sat
+                     | Tree level: 2
+                     | Node number: 22
+                     | Node type: Leaf
+                     | Sample size: 1
+                     | Predicted class: 1.073835175992328
+|---------------- Parent: ['day']
+                     | Parent branch: sun
+                     | Tree level: 2
+                     | Node number: 23
+                     | Node type: Leaf
+                     | Sample size: 1
+                     | Predicted class: -1.05159734607575
+|---------------- Parent: ['day']
+                     | Parent branch: thu
+                     | Tree level: 2
+                     | Node number: 24
+                     | Node type: Leaf
+                     | Sample size: 2
+                     | Predicted class: 0.9410365303715591
+|---------------- Parent: ['day']
+                     | Parent branch: wed
+                     | Tree level: 2
+                     | Node number: 25
+                     | Node type: Leaf
+                     | Sample size: 1
+                     | Predicted class: -1.05159734607575
+|---------------- Parent: ['day']
+                     | Parent branch: fri
+                     | Tree level: 2
+                     | Node number: 26
+                     | Node type: Leaf
+                     | Sample size: 1
+                     | Predicted class: -1.05159734607575
+|---------------- Parent: ['day']
+                     | Parent branch: mon
+                     | Tree level: 2
+                     | Node number: 27
+                     | Node type: Leaf
+                     | Sample size: 3
+                     | Predicted class: 0.9298033077563564
+|---------------- Parent: ['day']
+                     | Parent branch: sat
+                     | Tree level: 2
+                     | Node number: 28
+                     | Node type: Leaf
+                     | Sample size: 4
+                     | Predicted class: -0.012551629356492566
+|---------------- Parent: ['day']
+                     | Parent branch: sun
+                     | Tree level: 2
+                     | Node number: 29
+                     | Node type: Leaf
+                     | Sample size: 4
+                     | Predicted class: 0.46093036022252754
+|---------------- Parent: ['day']
+                     | Parent branch: thu
+                     | Tree level: 2
+                     | Node number: 30
+                     | Node type: Leaf
+                     | Sample size: 2
+                     | Predicted class: -0.05123762736402643
+|---------------- Parent: ['day']
+                     | Parent branch: tue
+                     | Tree level: 2
+                     | Node number: 31
+                     | Node type: Leaf
+                     | Sample size: 3
+                     | Predicted class: -1.05159734607575
+|---------------- Parent: ['day']
+                     | Parent branch: mon
+                     | Tree level: 2
+                     | Node number: 32
+                     | Node type: Leaf
+                     | Sample size: 2
+                     | Predicted class: 0.001790687414044534
+|---------------- Parent: ['day']
+                     | Parent branch: sun
+                     | Tree level: 2
+                     | Node number: 33
+                     | Node type: Leaf
+                     | Sample size: 2
+                     | Predicted class: -1.05159734607575
+|---------------- Parent: ['day']
+                     | Parent branch: tue
+                     | Tree level: 2
+                     | Node number: 34
+                     | Node type: Leaf
+                     | Sample size: 1
+                     | Predicted class: -1.05159734607575
+|---------------- Parent: ['day']
+                     | Parent branch: wed
+                     | Tree level: 2
+                     | Node number: 35
+                     | Node type: Leaf
+                     | Sample size: 1
+                     | Predicted class: -1.05159734607575
+|---------------- Parent: ['day']
+                     | Parent branch: fri
+                     | Tree level: 2
+                     | Node number: 36
+                     | Node type: Decision
+                     | Feature selected: rain
+                     | Gain Ratio is: 18.012
+                     | Left branch: 0.0
+                     | Left middle branch: None
+                     | Middle branch: None
+                     | Right middle branch: None
+                     | Right branch: 0.0
+                     | Sample size: 20
+                     | Predicted class: 0.13886753745155142
+|---------------- Parent: ['day']
+                     | Parent branch: mon
+                     | Tree level: 2
+                     | Node number: 37
+                     | Node type: Decision
+                     | Feature selected: rain
+                     | Gain Ratio is: 13.208
+                     | Left branch: 0.0
+                     | Left middle branch: None
+                     | Middle branch: None
+                     | Right middle branch: None
+                     | Right branch: 0.0
+                     | Sample size: 14
+                     | Predicted class: -0.045103789346276964
+|---------------- Parent: ['day']
+                     | Parent branch: sat
+                     | Tree level: 2
+                     | Node number: 38
+                     | Node type: Decision
+                     | Feature selected: rain
+                     | Gain Ratio is: 6.307
+                     | Left branch: 0.0
+                     | Left middle branch: None
+                     | Middle branch: None
+                     | Right middle branch: None
+                     | Right branch: 0.0
+                     | Sample size: 8
+                     | Predicted class: 0.17254569416985022
+|---------------- Parent: ['day']
+                     | Parent branch: sun
+                     | Tree level: 2
+                     | Node number: 39
+                     | Node type: Decision
+                     | Feature selected: rain
+                     | Gain Ratio is: 10.35
+                     | Left branch: 0.0
+                     | Left middle branch: None
+                     | Middle branch: None
+                     | Right middle branch: None
+                     | Right branch: 0.0
+                     | Sample size: 11
+                     | Predicted class: 0.06220478339049979
+|---------------- Parent: ['day']
+                     | Parent branch: thu
+                     | Tree level: 2
+                     | Node number: 40
+                     | Node type: Decision
+                     | Feature selected: rain
+                     | Gain Ratio is: 4.89
+                     | Left branch: 0.0
+                     | Left middle branch: None
+                     | Middle branch: None
+                     | Right middle branch: None
+                     | Right branch: 0.0
+                     | Sample size: 6
+                     | Predicted class: -0.06334644768278491
+|---------------- Parent: ['day']
+                     | Parent branch: tue
+                     | Tree level: 2
+                     | Node number: 41
+                     | Node type: Decision
+                     | Feature selected: rain
+                     | Gain Ratio is: 8.404
+                     | Left branch: 0.0
+                     | Left middle branch: None
+                     | Middle branch: None
+                     | Right middle branch: None
+                     | Right branch: 0.0
+                     | Sample size: 12
+                     | Predicted class: 0.45538066264570914
+|---------------- Parent: ['day']
+                     | Parent branch: wed
+                     | Tree level: 2
+                     | Node number: 42
+                     | Node type: Decision
+                     | Feature selected: Y
+                     | Gain Ratio is: 4.949
+                     | Left branch: 4.0
+                     | Left middle branch: None
+                     | Middle branch: None
+                     | Right middle branch: None
+                     | Right branch: 4.0
+                     | Sample size: 7
+                     | Predicted class: 0.40135487115461693
+|------------------------ Parent: ['rain']
+                             | Parent branch: <= -0.06765290590563425
+                             | Tree level: 3
+                             | Node number: 0
+                             | Node type: Decision
+                             | Feature selected: Y
+                             | Gain Ratio is: 7.926
+                             | Left branch: 4.0
+                             | Left middle branch: None
+                             | Middle branch: None
+                             | Right middle branch: None
+                             | Right branch: 4.0
+                             | Sample size: 8
+                             | Predicted class: -0.07985411768950557
+|------------------------ Parent: ['temp']
+                             | Parent branch: <= 1.0742521530094646
+                             | Tree level: 3
+                             | Node number: 2
+                             | Node type: Leaf
+                             | Sample size: 4
+                             | Predicted class: -1.05159734607575
+|------------------------ Parent: ['temp']
+                             | Parent branch: > 1.0742521530094646
+                             | Tree level: 3
+                             | Node number: 3
+                             | Node type: Leaf
+                             | Sample size: 4
+                             | Predicted class: 0.894836846485251
+|------------------------ Parent: ['rain']
+                             | Parent branch: <= -0.06765290590563425
+                             | Tree level: 3
+                             | Node number: 4
+                             | Node type: Decision
+                             | Feature selected: DMC
+                             | Gain Ratio is: 10.394
+                             | Left branch: 108.3
+                             | Left middle branch: None
+                             | Middle branch: None
+                             | Right middle branch: None
+                             | Right branch: 108.3
+                             | Sample size: 10
+                             | Predicted class: -0.06308167537076949
+|------------------------ Parent: ['rain']
+                             | Parent branch: <= -0.06765290590563425
+                             | Tree level: 3
+                             | Node number: 6
+                             | Node type: Decision
+                             | Feature selected: Y
+                             | Gain Ratio is: 15.202
+                             | Left branch: 4.0
+                             | Left middle branch: None
+                             | Middle branch: None
+                             | Right middle branch: None
+                             | Right branch: 4.0
+                             | Sample size: 12
+                             | Predicted class: -0.2115930727290017
+|------------------------ Parent: ['rain']
+                             | Parent branch: <= -0.06765290590563425
+                             | Tree level: 3
+                             | Node number: 8
+                             | Node type: Decision
+                             | Feature selected: FFMC
+                             | Gain Ratio is: 9.76
+                             | Left branch: 91.6
+                             | Left middle branch: None
+                             | Middle branch: None
+                             | Right middle branch: None
+                             | Right branch: 91.6
+                             | Sample size: 10
+                             | Predicted class: -0.4306675435110945
+|------------------------ Parent: ['rain']
+                             | Parent branch: <= -0.06765290590563425
+                             | Tree level: 3
+                             | Node number: 10
+                             | Node type: Decision
+                             | Feature selected: ISI
+                             | Gain Ratio is: 5.783
+                             | Left branch: 8.4
+                             | Left middle branch: None
+                             | Middle branch: None
+                             | Right middle branch: None
+                             | Right branch: 8.4
+                             | Sample size: 8
+                             | Predicted class: 0.4255386300729174
+|------------------------ Parent: ['rain']
+                             | Parent branch: > -0.06765290590563425
+                             | Tree level: 3
+                             | Node number: 11
+                             | Node type: Leaf
+                             | Sample size: 1
+                             | Predicted class: -1.05159734607575
+|------------------------ Parent: ['Y']
+                             | Parent branch: <= -0.26367042004495006
+                             | Tree level: 3
+                             | Node number: 12
+                             | Node type: Leaf
+                             | Sample size: 5
+                             | Predicted class: -0.6247938186317763
+|------------------------ Parent: ['Y']
+                             | Parent branch: > -0.26367042004495006
+                             | Tree level: 3
+                             | Node number: 13
+                             | Node type: Leaf
+                             | Sample size: 4
+                             | Predicted class: 0.8340861143450089
+|------------------------ Parent: ['rain']
+                             | Parent branch: <= -0.06765290590563425
+                             | Tree level: 3
+                             | Node number: 14
+                             | Node type: Decision
+                             | Feature selected: Y
+                             | Gain Ratio is: 26.882
+                             | Left branch: 4.0
+                             | Left middle branch: None
+                             | Middle branch: None
+                             | Right middle branch: None
+                             | Right branch: 4.0
+                             | Sample size: 20
+                             | Predicted class: 0.13886753745155142
+|------------------------ Parent: ['rain']
+                             | Parent branch: <= -0.06765290590563425
+                             | Tree level: 3
+                             | Node number: 16
+                             | Node type: Decision
+                             | Feature selected: X
+                             | Gain Ratio is: 18.57
+                             | Left branch: 4.0
+                             | Left middle branch: None
+                             | Middle branch: None
+                             | Right middle branch: None
+                             | Right branch: 4.0
+                             | Sample size: 14
+                             | Predicted class: -0.045103789346276964
+|------------------------ Parent: ['rain']
+                             | Parent branch: <= -0.06765290590563425
+                             | Tree level: 3
+                             | Node number: 18
+                             | Node type: Decision
+                             | Feature selected: temp
+                             | Gain Ratio is: 6.951
+                             | Left branch: 19.3
+                             | Left middle branch: None
+                             | Middle branch: None
+                             | Right middle branch: None
+                             | Right branch: 19.3
+                             | Sample size: 8
+                             | Predicted class: 0.17254569416985022
+|------------------------ Parent: ['rain']
+                             | Parent branch: <= -0.06765290590563425
+                             | Tree level: 3
+                             | Node number: 20
+                             | Node type: Decision
+                             | Feature selected: FFMC
+                             | Gain Ratio is: 12.482
+                             | Left branch: 91.6
+                             | Left middle branch: None
+                             | Middle branch: None
+                             | Right middle branch: None
+                             | Right branch: 91.6
+                             | Sample size: 11
+                             | Predicted class: 0.06220478339049979
+|------------------------ Parent: ['rain']
+                             | Parent branch: <= -0.06765290590563425
+                             | Tree level: 3
+                             | Node number: 22
+                             | Node type: Decision
+                             | Feature selected: RH
+                             | Gain Ratio is: 6.277
+                             | Left branch: 42.0
+                             | Left middle branch: None
+                             | Middle branch: None
+                             | Right middle branch: None
+                             | Right branch: 42.0
+                             | Sample size: 6
+                             | Predicted class: -0.06334644768278491
+|------------------------ Parent: ['rain']
+                             | Parent branch: <= -0.06765290590563425
+                             | Tree level: 3
+                             | Node number: 24
+                             | Node type: Decision
+                             | Feature selected: X
+                             | Gain Ratio is: 11.508
+                             | Left branch: 4.0
+                             | Left middle branch: None
+                             | Middle branch: None
+                             | Right middle branch: None
+                             | Right branch: 4.0
+                             | Sample size: 12
+                             | Predicted class: 0.45538066264570914
+|------------------------ Parent: ['Y']
+                             | Parent branch: <= -0.26367042004495006
+                             | Tree level: 3
+                             | Node number: 26
+                             | Node type: Leaf
+                             | Sample size: 4
+                             | Predicted class: 0.9862319705058491
+|------------------------ Parent: ['Y']
+                             | Parent branch: > -0.26367042004495006
+                             | Tree level: 3
+                             | Node number: 27
+                             | Node type: Leaf
+                             | Sample size: 3
+                             | Predicted class: -0.3784812613136925
+|-------------------------------- Parent: ['Y']
+                                     | Parent branch: <= -0.26367042004495006
+                                     | Tree level: 4
+                                     | Node number: 0
+                                     | Node type: Leaf
+                                     | Sample size: 5
+                                     | Predicted class: -0.24313368800491908
+|-------------------------------- Parent: ['Y']
+                                     | Parent branch: > -0.26367042004495006
+                                     | Tree level: 4
+                                     | Node number: 1
+                                     | Node type: Leaf
+                                     | Sample size: 3
+                                     | Predicted class: 0.19227849950285028
+|-------------------------------- Parent: ['DMC']
+                                     | Parent branch: <= 0.24499543110103875
+                                     | Tree level: 4
+                                     | Node number: 2
+                                     | Node type: Leaf
+                                     | Sample size: 5
+                                     | Predicted class: 0.516333812877277
+|-------------------------------- Parent: ['DMC']
+                                     | Parent branch: > 0.24499543110103875
+                                     | Tree level: 4
+                                     | Node number: 3
+                                     | Node type: Leaf
+                                     | Sample size: 5
+                                     | Predicted class: -0.6424971636188159
+|-------------------------------- Parent: ['Y']
+                                     | Parent branch: <= -0.26367042004495006
+                                     | Tree level: 4
+                                     | Node number: 4
+                                     | Node type: Decision
+                                     | Feature selected: X
+                                     | Gain Ratio is: 5.69
+                                     | Left branch: 4.0
+                                     | Left middle branch: None
+                                     | Middle branch: None
+                                     | Right middle branch: None
+                                     | Right branch: 4.0
+                                     | Sample size: 7
+                                     | Predicted class: -0.48425563390535703
+|-------------------------------- Parent: ['Y']
+                                     | Parent branch: > -0.26367042004495006
+                                     | Tree level: 4
+                                     | Node number: 5
+                                     | Node type: Leaf
+                                     | Sample size: 5
+                                     | Predicted class: 0.17013451291789572
+|-------------------------------- Parent: ['FFMC']
+                                     | Parent branch: <= 0.29613080626356236
+                                     | Tree level: 4
+                                     | Node number: 6
+                                     | Node type: Leaf
+                                     | Sample size: 5
+                                     | Predicted class: -0.6467334926593024
+|-------------------------------- Parent: ['FFMC']
+                                     | Parent branch: > 0.29613080626356236
+                                     | Tree level: 4
+                                     | Node number: 7
+                                     | Node type: Leaf
+                                     | Sample size: 5
+                                     | Predicted class: -0.2146015943628866
+|-------------------------------- Parent: ['ISI']
+                                     | Parent branch: <= 1.7669166727720769
+                                     | Tree level: 4
+                                     | Node number: 8
+                                     | Node type: Leaf
+                                     | Sample size: 4
+                                     | Predicted class: 0.9469453937168151
+|-------------------------------- Parent: ['ISI']
+                                     | Parent branch: > 1.7669166727720769
+                                     | Tree level: 4
+                                     | Node number: 9
+                                     | Node type: Leaf
+                                     | Sample size: 4
+                                     | Predicted class: -0.09586813357098017
+|-------------------------------- Parent: ['Y']
+                                     | Parent branch: <= -0.26367042004495006
+                                     | Tree level: 4
+                                     | Node number: 10
+                                     | Node type: Decision
+                                     | Feature selected: X
+                                     | Gain Ratio is: 27.505
+                                     | Left branch: 4.0
+                                     | Left middle branch: None
+                                     | Middle branch: None
+                                     | Right middle branch: None
+                                     | Right branch: 4.0
+                                     | Sample size: 18
+                                     | Predicted class: 0.05113683210441063
+|-------------------------------- Parent: ['Y']
+                                     | Parent branch: > -0.26367042004495006
+                                     | Tree level: 4
+                                     | Node number: 11
+                                     | Node type: Leaf
+                                     | Sample size: 2
+                                     | Predicted class: 0.9284438855758186
+|-------------------------------- Parent: ['X']
+                                     | Parent branch: <= -0.28976398114332347
+                                     | Tree level: 4
+                                     | Node number: 12
+                                     | Node type: Decision
+                                     | Feature selected: Y
+                                     | Gain Ratio is: 12.066
+                                     | Left branch: 4.0
+                                     | Left middle branch: None
+                                     | Middle branch: None
+                                     | Right middle branch: None
+                                     | Right branch: 4.0
+                                     | Sample size: 9
+                                     | Predicted class: 0.05739881737037603
+|-------------------------------- Parent: ['X']
+                                     | Parent branch: > -0.28976398114332347
+                                     | Tree level: 4
+                                     | Node number: 13
+                                     | Node type: Leaf
+                                     | Sample size: 5
+                                     | Predicted class: -0.22960848143625237
+|-------------------------------- Parent: ['temp']
+                                     | Parent branch: <= 0.41719625039506936
+                                     | Tree level: 4
+                                     | Node number: 14
+                                     | Node type: Leaf
+                                     | Sample size: 4
+                                     | Predicted class: 0.4346044174759304
+|-------------------------------- Parent: ['temp']
+                                     | Parent branch: > 0.41719625039506936
+                                     | Tree level: 4
+                                     | Node number: 15
+                                     | Node type: Leaf
+                                     | Sample size: 4
+                                     | Predicted class: -0.08951302913623005
+|-------------------------------- Parent: ['FFMC']
+                                     | Parent branch: <= 0.3129458047264778
+                                     | Tree level: 4
+                                     | Node number: 16
+                                     | Node type: Decision
+                                     | Feature selected: Y
+                                     | Gain Ratio is: 9.022
+                                     | Left branch: 4.0
+                                     | Left middle branch: None
+                                     | Middle branch: None
+                                     | Right middle branch: None
+                                     | Right branch: 4.0
+                                     | Sample size: 10
+                                     | Predicted class: 0.17358499633712476
+|-------------------------------- Parent: ['FFMC']
+                                     | Parent branch: > 0.3129458047264778
+                                     | Tree level: 4
+                                     | Node number: 17
+                                     | Node type: Leaf
+                                     | Sample size: 1
+                                     | Predicted class: -1.05159734607575
+|-------------------------------- Parent: ['RH']
+                                     | Parent branch: <= -0.8160795023830172
+                                     | Tree level: 4
+                                     | Node number: 18
+                                     | Node type: Leaf
+                                     | Sample size: 3
+                                     | Predicted class: -0.4177201009770461
+|-------------------------------- Parent: ['RH']
+                                     | Parent branch: > -0.8160795023830172
+                                     | Tree level: 4
+                                     | Node number: 19
+                                     | Node type: Leaf
+                                     | Sample size: 3
+                                     | Predicted class: 0.29102720561147627
+|-------------------------------- Parent: ['X']
+                                     | Parent branch: <= 0.1464625213778981
+                                     | Tree level: 4
+                                     | Node number: 20
+                                     | Node type: Decision
+                                     | Feature selected: wind
+                                     | Gain Ratio is: 3.929
+                                     | Left branch: 4.0
+                                     | Left middle branch: None
+                                     | Middle branch: None
+                                     | Right middle branch: None
+                                     | Right branch: 4.0
+                                     | Sample size: 6
+                                     | Predicted class: 0.2564873241655486
+|-------------------------------- Parent: ['X']
+                                     | Parent branch: > 0.1464625213778981
+                                     | Tree level: 4
+                                     | Node number: 21
+                                     | Node type: Decision
+                                     | Feature selected: wind
+                                     | Gain Ratio is: 3.551
+                                     | Left branch: 4.0
+                                     | Left middle branch: None
+                                     | Middle branch: None
+                                     | Right middle branch: None
+                                     | Right branch: 4.0
+                                     | Sample size: 6
+                                     | Predicted class: 0.6542740011258696

@@ -1,0 +1,7 @@
+The abalone data, with target variable rings, is a regression problem.
+The hyperparameter Max Depth is tune to: 8
+The hyperparameter θ is tuned to: 5
+The Decision Tree took: 7.313 minutes.
+The R² is: 0
+The Pearsons Correlation is: 0
+The MSE is: 0

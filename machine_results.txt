@@ -1,0 +1,8 @@
+The machine data, with target variable erp, is a regression problem.
+Hyperparameter tuning took: 2.405 minutes.
+The hyperparameter Max Depth is tune to: 3
+The hyperparameter θ is tuned to: 1
+The Decision Tree took: 0.225 minutes.
+The R² is: -0.847
+The Pearsons Correlation is: nan
+The MSE is: 1.801

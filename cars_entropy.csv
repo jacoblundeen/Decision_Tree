@@ -1,0 +1,8 @@
+Feature,Gain Ratio
+clump_thick,0.023
+unif_size,0.015
+adhesion,0.019
+epithelial_size,0.016
+bland_chromatin,0.021
+norm_nucleoli,0.019
+mitosis,0.006
